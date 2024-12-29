@@ -1,8 +1,7 @@
 import pickle
 
 models = {}
-model_names = ['logistic_regression_model.pkl', 'decision_tree_model.pkl', 
-               'gradient_boosting_model.pkl', 'random_forest_model.pkl']
+model_names = ['logistic_regression_model.pkl', 'decision_tree_model.pkl', 'random_forest_model.pkl']
 
 for model_name in model_names:
     with open(model_name, 'rb') as f:
